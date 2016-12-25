@@ -24,22 +24,19 @@ p {
 }
 
 .content{
-  width: 90%;
-  margin: 10px auto;
-  padding: 5px;
+  margin:20px;
   border: 1px solid #313131;
   background: #dedbdc;
-  position: relative;
 }
 
   .content p{
-    margin-top: 40px;
+    clear:both;
+    padding: 5px;
   }
 
 .menu-item-title{
-  position: absolute;
-  right:0;
-  top:0;
+  float: right;
+  margin: -1px -1px 0 0;
   padding: 5px;
   border: 1px solid #313131;
   font-size: 125%;
